@@ -1,0 +1,20 @@
+npx create-next-app@latest . 
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p (configs tailwind and postcss created)
+In tailwind config.js add below code
+
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+In styles globals.css add 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+Register in Moralis (Lke firebase which has all infrastructure for creating DAPPS. Without moralis we need to setup all the nodes. Reinventing wheel and headaches)
+Create a testne testnet server I have chosen Bangalore nearest location with ETH Rinkeby EVM Configuration

@@ -14,8 +14,9 @@ module.exports = {
   networks: {
     ropsten: {
       url: "https://speedy-nodes-nyc.moralis.io/4c43211f09dbd9c7f29b52f1/eth/ropsten",
+      // exported private key of account
       accounts: [
-        "bd75cafaa6becf7b142c85ce18086fc876dcaf9a9d16390978e4697005ada91a",
+        "",
       ],
     },
   },
